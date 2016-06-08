@@ -1,3 +1,4 @@
 #!/bin/bash
+whoami
+cp -r index.php /var/www/html/index.php
 
-sudo cp -r index.php /var/www/html/index.php
