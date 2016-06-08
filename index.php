@@ -1,7 +1,7 @@
 <?php
 	echo "<html><head><title>Test Page</title></head></html>";
 
-	echo "This is a test.";
-	echo "<br>This will only be published if there aren't any syntax errors.";
+	echo "<p>This is a test.</p>";
+	echo "<p>This will only be published if there aren't any syntax errors.</p>";
 	echo "<p style='color: green'>And this text is green.</p>";
 ?>
