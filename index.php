@@ -1,7 +1,5 @@
 <?php
 	echo "This is a test.";
-	echo "This will only be published if there aren't any syntax errors";
-	echo "Otherwise...<p style='color:red'>This wouldn't work!</p>";
-
-	for(i aa){d
+	echo "<br>This will only be published if there aren't any syntax errors.";
+	echo "<p style='color: green'>And this text is green.</p>";
 ?>
