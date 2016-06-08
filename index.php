@@ -1,5 +1,3 @@
 <?php
-	echo "Hello!";
-	for(i 3)
-fad
+	echo "What's up";
 ?>
