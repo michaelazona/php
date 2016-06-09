@@ -3,5 +3,5 @@
 
 	echo "<p>This is a test.</p>";
 	echo "<p>This will only be published if there aren't any syntax errors.</p>";
-	echo "<p style='color: green'>And this text is green.</p>";
+	echo "<p style='color: red'>And this text is red.</p>";
 ?>
