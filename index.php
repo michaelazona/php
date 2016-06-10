@@ -117,15 +117,22 @@
 		<script>
 			var firstName = <?php echo json_encode($first); ?>;
 			var lastName  = <?php echo json_encode($last); ?>;
+			var htmlStuff = "";
 
 			for(var i = 0; i < firstName.length; i++)
 			{
-				document.getElementById("name").innerHTML = firstName[i] + " " + lastName[i];
+				htmlStuff = htmlStuff + firstName[i] + " " + lastName[i] + "<br>";
+
+				if(i != (firstName.length - 1)){ htmlStuff = htmlStuff + "<br>"; }
 			}
+
+			document.getElementById("name").innerHTML = htmlStuff;
 			
 			function submit()
 			{
-				document.location.href = "http://www.google.com";
+				var newFirst = document.getElementById("newFirst").value;
+				var newLast  = document.getElementById("newLast").value;
+				document.location.href = "updateDatabase.php?first=" + newFirst + "&last=" + newLast;
 			}
 		</script>
 
