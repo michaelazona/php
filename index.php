@@ -1,13 +1,13 @@
 <?php
-	echo "<html><head><title>Test Page</title></head></html>";
+	$serverName = "localhost";
+	$username = "root";
+	$password = "root";
 
-	echo "<p>This is a test.</p>";
-	echo "<p>This will only be published if there aren't any syntax errors.</p>";
-	echo "<p style='color: blue'>And this text is red.</p>";
+	$conn = new mysqli($serverName, $username, $password);
 ?>
 
 <html>
 	<body>
-		<p>HI</p>
+		<p></p>
 	</body>
 </html>
