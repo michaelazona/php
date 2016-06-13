@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="PersonTest" file="/home/mint/Repos/php/Misc/variousPHPUnitTests.php" tests="1" assertions="1" failures="0" errors="0" time="0.002132">
+    <testcase name="testSqlStatement" class="PersonTest" file="/home/mint/Repos/php/Misc/variousPHPUnitTests.php" line="8" assertions="1" time="0.002132"/>
+  </testsuite>
+</testsuites>
