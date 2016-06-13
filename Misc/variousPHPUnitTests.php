@@ -2,7 +2,7 @@
 
 	require_once 'phpFunctions.php';
 
-	class PersonTest extends PHPUNIT_Framework_TestCase
+	class variousPHPUnitTests extends PHPUNIT_Framework_TestCase
 	{
 		//incase there were any alterations to the SQL statment - this will make sure the query is always the right one!
 		public function testSqlStatement()
