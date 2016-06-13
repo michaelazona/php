@@ -1,6 +1,6 @@
 <?php
 
-	require_once 'updateDatabase.php';
+	require_once 'phpFunctions.php';
 
 	class PersonTest extends PHPUNIT_Framework_TestCase
 	{
