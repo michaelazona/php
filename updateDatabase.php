@@ -20,6 +20,7 @@
 	}
 
 	$conn->close();
-	header('Location: localhost');
-
+	header('Location: http://localhost');
+	exit;
+	
 ?>
