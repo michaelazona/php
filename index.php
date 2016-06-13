@@ -36,7 +36,7 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title>Web App</title>
+		<title>Mike's Web App</title>
 
 		<style>
 			#container
