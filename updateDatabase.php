@@ -1,6 +1,7 @@
 <?php
 	
-	include 'Misc/phpFunctions';
+	include 'Misc/phpFunctions.php';
+	//pulling connectToDatabase() and assembleSqlStatement()
 
 	$first = $_GET["first"];
 	$last  = $_GET["last"];
