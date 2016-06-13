@@ -1,7 +1,7 @@
 #!/bin/bash
 whoami
 pwd
-sudo cp -r index.php /var/www/html/index.php
+sudo cp -r index.php /var/www/html/mikeWebApp.php
 sudo cp -r updateDatabase.php /var/www/html/updateDatabase.php
 sudo cp -r css /var/www/html/css
 sudo cp -r js /var/www/html/js
