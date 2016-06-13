@@ -36,10 +36,10 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<script src="js\alertify.min.js"></script>
-		<link rel="stylesheet" href="css\alertify.core.css" />
-		<link rel="stylesheet" href="css\alertify.default.css" />
-		<link rel="stylesheet" type="text/css" href="mainPage.css">
+		<script src="js/alertify.min.js"></script>
+		<link rel="stylesheet" href="css/alertify.core.css" />
+		<link rel="stylesheet" href="css/alertify.default.css" />
+		<link rel="stylesheet" href="css/mainPage.css" />
 
 		<title>Mike's Web App</title>
 

@@ -1,5 +1,0 @@
-#!/bin/bash
-whoami
-pwd
-sudo cp -r index.php /var/www/html/index.php
-
