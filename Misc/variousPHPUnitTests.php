@@ -8,7 +8,7 @@
 		public function testSqlStatement()
 		{
 			$sql = 'INSERT INTO SampleTable ' . '(firstName, lastName) ' . 'VALUES ( "Donald", "Duck" )';
-			$this->assertEquals(assembleSqlStatment("Donald", "Duck"), $sql);
+			$this->assertEquals(assembleSqlStatment("Donald2", "Duck"), $sql);
 		}
 
 
