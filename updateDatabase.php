@@ -20,7 +20,7 @@
 	}
 
 	$conn->close();
-	header('Location: http://localhost');
+	header('Location: mikeWebApp.php');
 	exit;
 	
 ?>
