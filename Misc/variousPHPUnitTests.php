@@ -19,6 +19,8 @@
 
 			if($conn)  { $this->assertTrue(TRUE) ;}
 			else       { $this->assertTrue(FALSE);}
+
+			$conn->close();
 		}
 	}
 ?>
