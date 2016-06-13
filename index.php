@@ -39,7 +39,7 @@
 		<script src="js\alertify.min.js"></script>
 		<link rel="stylesheet" href="css\alertify.core.css" />
 		<link rel="stylesheet" href="css\alertify.default.css" />
-		<link rel="stylesheet" href="css\mainPage.css" />
+		<link rel="stylesheet" href="mainPage.css" />
 
 		<title>Mike's Web App</title>
 
