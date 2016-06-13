@@ -35,63 +35,67 @@
 
 <!DOCTYPE>
 <html>
-	<style>
-		#container
-		{
-			width:  40%;
-			background-color: #555555;
-			margin: auto;
-			text-align: center;
-			margin-top: 4%;
-			border-style: groove;
-		}
+	<head>
+		<title>Web App</title>
 
-		p
-		{
-			font-family: Consolas, monaco, monospace;
-			font-size: 26px;
-			font-style: normal;
-			font-variant: normal;
-			font-weight: 400;
-			line-height: 20px;
-			color: #fafafa;
-		}
+		<style>
+			#container
+			{
+				width:  40%;
+				background-color: #555555;
+				margin: auto;
+				text-align: center;
+				margin-top: 4%;
+				border-style: groove;
+			}
 
-		input
-		{
-			font-family: Consolas, monaco, monospace;
-			font-size: 26px;
-			font-style: normal;
-			font-variant: normal;
-			font-weight: 400;
-			line-height: 20px;
-			color: #555555;
-		}
+			p
+			{
+				font-family: Consolas, monaco, monospace;
+				font-size: 26px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: 400;
+				line-height: 20px;
+				color: #fafafa;
+			}
 
-		.button 
-		{
-		    background-color: #4CAF50; /* Green */
-		    border: none;
-		    color: white;
-		    padding: 15px 32px;
-		    text-align: center;
-		    text-decoration: none;
-		    display: inline-block;
-		    font-size: 16px;
-		}
+			input
+			{
+				font-family: Consolas, monaco, monospace;
+				font-size: 26px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: 400;
+				line-height: 20px;
+				color: #555555;
+			}
 
-		.button:hover
-		{
-			cursor: pointer;
-		}
+			.button 
+			{
+			    background-color: #4CAF50; /* Green */
+			    border: none;
+			    color: white;
+			    padding: 15px 32px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;
+			}
 
-		.button:active
-		{
-			cursor: pointer;
-			font-size: 15px;
-			padding: 14px 31px;
-		}
-	</style>
+			.button:hover
+			{
+				cursor: pointer;
+			}
+
+			.button:active
+			{
+				cursor: pointer;
+				font-size: 15px;
+				padding: 14px 31px;
+			}
+		</style>
+	</head>
 
 	<body>
 
