@@ -131,13 +131,14 @@
 			{
 				var newFirst = document.getElementById("newFirst").value;
 				var newLast  = document.getElementById("newLast").value;
+				var url      = "updateDatabase.php?first=" + newFirst + "&last=" + newLast;
 
 				if(newFirst == "" && newLast == ""){ alert("Please enter enter a first name and a last name."); }
 				
 				else if(newFirst == ""){ alert("Please enter a first name."); }
 				else if(newLast  == ""){ alert("Please enter a last name.") ; }
 
-				document.location.href = "updateDatabase.php?first=" + newFirst + "&last=" + newLast;
+				else{ document.location.href = url; }
 			}
 		</script>
 
