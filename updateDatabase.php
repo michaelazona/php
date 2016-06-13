@@ -11,6 +11,11 @@
 		return $conn;
 	}
 
+	function assembleSqlStatment($first, $last)
+	{
+		$sql = 'INSERT INTO SampleTable ' . '(firstName, lastName) ' . 'VALUES ( "' . $first . '", "' . $last . '" )';
+		return $sql;
+	}
 
 	$first = $_GET["first"];
 	$last  = $_GET["last"];
@@ -24,7 +29,7 @@
 
 	if($conn)
 	{
-		$sql = 'INSERT INTO SampleTable ' . '(firstName, lastName) ' . 'VALUES ( "' . $first . '", "' . $last . '" )';
+		$sql = assembleSqlStatment($first, $last);
 		$conn->query($sql);
 	}
 
