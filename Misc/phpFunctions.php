@@ -2,7 +2,7 @@
 
 	function connectToDatabase()
 	{
-		$serverName = "locadlhost";
+		$serverName = "localhost";
 		$username = "root";
 		$password = "root";
 		$dbname = "SampleDatabase";
