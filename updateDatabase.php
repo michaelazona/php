@@ -1,13 +1,21 @@
 <?php
+	
+	function connectToDatabase()
+	{
+		$serverName = "localhost";
+		$username = "root";
+		$password = "root";
+		$dbname = "SampleDatabase";
+
+		$conn = new mysqli($serverName, $username, $password, $dbname);
+		return $conn;
+	}
+
+
 	$first = $_GET["first"];
 	$last  = $_GET["last"];
 
-	$serverName = "localhost";
-	$username = "root";
-	$password = "root";
-	$dbname = "SampleDatabase";
-
-	$conn = new mysqli($serverName, $username, $password, $dbname);
+	$conn = connectToDatabase();
 
 	if ($conn->connect_error) 
 	{
