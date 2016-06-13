@@ -108,10 +108,9 @@
 			</p>
 
 			<p>First Name: <input id="newFirst" type="textbox" style='height:30px'/></p>
-			<p>Last Name: <input id="newLast" type="textbox" style='height:30px; margin-left: 13px'/></p><br>
+			<p>Last Name:  <input id="newLast" type="textbox" style='height:30px; margin-left: 13px'/></p><br>
 
 			<input type="button" class="button" value="Submit" onclick="submit()"/><br/><br/><br/>
-
 		</div>
 
 		<script>
@@ -132,6 +131,12 @@
 			{
 				var newFirst = document.getElementById("newFirst").value;
 				var newLast  = document.getElementById("newLast").value;
+
+				if(newFirst == "" && newLast == ""){ alert("Please enter enter a first name and a last name."); }
+				
+				else if(newFirst == ""){ alert("Please enter a first name."); }
+				else if(newLast  == ""){ alert("Please enter a last name.") ; }
+
 				document.location.href = "updateDatabase.php?first=" + newFirst + "&last=" + newLast;
 			}
 		</script>
