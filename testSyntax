@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-output="$(php -l index.php)"
+output="$(php -l mikeWebApp.php)"
 
 if [ "$output" == "Errors parsing index.php" ]
 then

@@ -7,7 +7,7 @@
 		//incase there were any alterations to the SQL statment - this will make sure the query is always the right one!
 		public function testSqlStatement()
 		{
-			$sql = 'INSERT INTO SampleTable ' . '(firstName, lastName) ' . 'VALUES ( "Donald", "Duck" )';
+			$sql = 'INSERT INTO SampleTable ' . '(firstName, lastName) ' . 'VALUES ( "Donald","Duck" )';
 			$this->assertEquals(assembleSqlStatment("Donald", "Duck"), $sql);
 		}
 
