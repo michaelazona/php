@@ -3,6 +3,6 @@ whoami
 pwd
 sudo cp -r mikeWebApp.php /var/www/html/mikeWebApp.php
 sudo cp -r updateDatabase.php /var/www/html/updateDatabase.php
-sudo cp -r css /var/www/html/css
-sudo cp -r js /var/www/html/js
-sudo cp -r Misc /var/www/html/Misc
+sudo cp -fR css /var/www/html
+sudo cp -fR js /var/www/html
+sudo cp -fR Misc /var/www/html
