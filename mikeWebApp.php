@@ -1,13 +1,9 @@
 <?php
-	$serverName = "localhost";
-	$username = "root";
-	$password = "root";
-	$dbname = "SampleDatabase";
 
 	$first = array();
 	$last  = array();
 
-	$conn = new mysqli($serverName, $username, $password, $dbname);
+	$conn = connectToDatabase();;
 
 	if ($conn->connect_error) 
 	{
