@@ -1,5 +1,8 @@
 <?php
 
+	include 'Misc/phpFunctions.php';
+	//pulling connectToDatabase() and assembleSqlStatement()
+
 	$first = array();
 	$last  = array();
 
