@@ -13,7 +13,7 @@
 
 	function assembleSqlStatment($first, $last)
 	{
-		$sql = 'INSERT INTO SampleTable ' . '(firstName, lastName) ' . 'VALUES ( "' . $first . '", "' . $last . '" )';
+		$sql = 'INSERT INTO SampleTable ' . '(firstName, lastName) ' . 'VALUES ( "' . $first . '","' . $last . '" )';
 		return $sql;
 	}
 	
